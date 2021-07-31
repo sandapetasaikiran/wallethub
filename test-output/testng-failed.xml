@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FaceBook Test Suite]">
+  <test thread-count="5" name="Test Facebook on Chrome browser(failed)">
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="Assignments.AssignmentTest1">
+        <methods>
+          <include name="ChooseBrowser"/>
+          <include name="assignement1"/>
+        </methods>
+      </class> <!-- Assignments.AssignmentTest1 -->
+    </classes>
+  </test> <!-- Test Facebook on Chrome browser(failed) -->
+</suite> <!-- Failed suite [FaceBook Test Suite] -->

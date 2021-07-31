@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="FaceBook Test Suite" duration-ms="18595" started-at="2021-07-30T22:49:49 IST" finished-at="2021-07-30T22:50:07 IST">
+    <groups>
+    </groups>
+    <test name="Test Facebook on Chrome browser" duration-ms="18595" started-at="2021-07-30T22:49:49 IST" finished-at="2021-07-30T22:50:07 IST">
+      <class name="Assignments.AssignmentTest1">
+        <test-method status="PASS" signature="ChooseBrowser(java.lang.String)[pri:0, instance:Assignments.AssignmentTest1@1e6d1014]" name="ChooseBrowser" is-config="true" duration-ms="3938" started-at="2021-07-30T22:49:49 IST" finished-at="2021-07-30T22:49:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChooseBrowser -->
+        <test-method status="PASS" signature="assignement1()[pri:0, instance:Assignments.AssignmentTest1@1e6d1014]" name="assignement1" duration-ms="13687" started-at="2021-07-30T22:49:53 IST" finished-at="2021-07-30T22:50:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assignement1 -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:Assignments.AssignmentTest1@1e6d1014]" name="CloseBrowser" is-config="true" duration-ms="921" started-at="2021-07-30T22:50:07 IST" finished-at="2021-07-30T22:50:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- Assignments.AssignmentTest1 -->
+    </test> <!-- Test Facebook on Chrome browser -->
+  </suite> <!-- FaceBook Test Suite -->
+</testng-results>
